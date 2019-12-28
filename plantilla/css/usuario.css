@@ -1,0 +1,72 @@
+.ficha-usuario{background:#ffffff;padding:20px;font-family:'Poppins', sans-serif;}.usuario-cabecera{border:1px solid #888888;border-radius:4px;padding:20px 5px;}.logo-usuario{padding:30px;}.logo-usuario img{height:130px;width:130px;}
+.titulares{color:#E0701E;} /*naranja*/
+.titulares .titulo-usuario{font-weight:100;font-size:20px;margin-top:30px;margin-bottom:10px;}.eslogan-usuario{color:#888888;padding-bottom:20px;}
+.redes-negocio a{display:block;float:left;margin-right:7px;}
+.redes-negocio .menu-btn{background:#F99D2A;padding:10px 5px;display:inline-block;border-radius:5px;color:#fff;margin-left:20px;}
+.redes-negocio a img{height:35px;padding-top:7px;}.caja-emblemas .izquierda{text-align:right;}.caja-emblemas .derecha{text-align:left;}
+.cualificado{text-align:center;display:block;background:#E0701E;width:auto;margin-top:20px;margin:20px 75px 0;padding:3px;color:#ffffff;}
+.caja-emblemas{padding-top:40px;}.puntos{padding-top:40px;}.puntos p{margin-bottom:4px;}.menu-usuario{padding-top:30px;}
+.menu-usuario a{display:inline-block;color:#888888;padding:5px;margin:0px 30px 15px 30px;font-size:16px;}.ir_a.registradas i{width:0.9em;display:inline-block;}
+
+.caja-borde{border:1px solid #888888;border-radius:4px;margin-top:40px;padding:5px 10px 20px 10px;}
+.caja-borde .titulo{color:#E0701E;height:30px;}
+
+.ver-valoraciones .valoraciones .caja{width:20%;float:left;position:relative;min-height:1px;}
+.ver-valoraciones .valoraciones .caja .datos{text-align:center;}
+.ver-valoraciones .valoraciones .caja .datos .titulo{color:#888888;padding-bottom:45px;}
+.ver-valoraciones .valoraciones .caja .datos .valor{color:#43B753;font-size:28px;font-weight:100;}
+.ver-valoraciones .valoraciones .media{float:left;color:#43B753;}
+.ver-valoraciones .valoraciones .media .valor-media{float:left;font-size:44px;font-weight:100;padding-right:5px;padding-top:0px;line-height:40px;}
+.ver-valoraciones .valoraciones .media .valor-titulo{float:left;text-align:left;}
+.ver-valoraciones .valoraciones .media .datos{float:left;margin-left:30%;margin-top:9%;}
+
+.margb{margin-bottom:40px;}
+.votacion {list-style:none;margin: 0px auto !important;padding:0px !important;height: 30px;position: relative;background: url(../../imagen/starrating.png) top left repeat-x;}
+.votacion li{ text-indent: -90000px;padding:0px;margin:0px; float: left; }
+.votacion li a {outline:none;display:block;width:30px;height:30px;text-decoration:none;text-indent:-9000px;z-index:20;position:absolute;padding:0px;}
+.votacion li a:hover{background: url(../../imagen/starrating.png) left center;z-index:2;left:0px;cursor:pointer;}
+.votacion a.voto1{left: 0px;}
+.votacion a.voto1:hover{width:30px;}
+.votacion a.voto2{left:30px;}
+.votacion a.voto2:hover{width: 60px;}
+.votacion a.voto3{left: 60px;}
+.votacion a.voto3:hover{width: 90px;}
+.votacion a.voto4{left: 90px;}	
+.votacion a.voto4:hover{width: 120px;}
+.votacion a.voto5{left: 120px;}
+.votacion a.voto5:hover{width: 150px;}
+.votacion a.voto6{left: 150px;}
+.votacion a.voto6:hover{width: 180px;}
+.votacion a.voto7{left: 180px;}
+.votacion a.voto7:hover{width: 210px;}
+.votacion a.voto8{left: 210px;}
+.votacion a.voto8:hover{width: 240px;}
+.votacion a.voto9{left: 240px;}
+.votacion a.voto9:hover{width: 270px;}
+.votacion a.voto10{left: 270px;}
+.votacion a.voto10:hover{width: 300px;}
+.votacion li.barra {background:url(../../imagen/starrating.png) left bottom;position:absolute;height:30px;display:block;text-indent:-9000px;z-index:1;}
+.zona-votar p{text-align:center;}
+
+.btn-enviar, .btn-reenviar{padding:13px;margin-right:5px;margin-top:30px;display:inline-block;border-radius:5px;color:#fff;float:right;background:#F99D2A;cursor:pointer;}
+.btn-enviar:before{content:"\f1d9";font: normal normal normal 14px/1 FontAwesome;margin-right:6px;}
+.caja-nombre-email{padding-bottom:25px;}
+textarea{resize:none;}
+.comentario .contenido-caja .titulo{margin-bottom:30px;}
+.parte-derecha .titular{color:#E0701E;font-weight:bold;}
+.compartir{margin-bottom:30px;}
+.parte-derecha .nombre{text-align:center;color:#F99D2A;}
+.mg2{margin-top:20px;}
+.slick-slide iframe{width:100%;}
+
+@media screen and (max-width:630px){
+	.ver-valoraciones .valoraciones .caja{width:50%;}
+	.ver-valoraciones .valoraciones .caja.media{width:100%;margin-bottom:30px;}
+	.caja-emblemas .col-sm-6, .info-ppal .logo-usuario{width:50%;float:left;}
+	.info-ppal .titulares .eslogan-usuario{clear:both;}
+	.logo-usuario img{width:85px;height:85px;}
+	.redes-negocio .menu-btn{width:100%;margin-left:0;margin-top:15px;}
+	.menu-usuario a{width:49%;display:inline-block;margin:0;padding:0px 11px 17px;}
+}
+
+

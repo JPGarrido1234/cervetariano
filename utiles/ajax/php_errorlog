@@ -1,0 +1,1 @@
+[09-Oct-2019 15:18:11 CST6CDT] PHP Fatal error:  require(): Failed opening required '../utiles/PHPMailer-master/src/Exception.php' (include_path='.:/usr/local/php71/pear') in /home/vivesinn/public_html/parejasisi/utiles/ajax/reclamar-negocio.php on line 5

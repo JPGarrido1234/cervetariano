@@ -1,0 +1,361 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href="../../../css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+        .the-icons {
+          margin-left: 0;
+          list-style: none;
+        }
+        .the-icons li {
+          float: left;
+          width: 25%;
+          line-height: 25px;
+          cursor:pointer;
+        }
+        .the-icons i:hover {
+          background-color: rgba(255,0,0,.25);
+        }
+        .item {padding:15px 30px 30px;border-bottom:#e7e7e7 1px solid;
+            -webkit-box-shadow:0 0 40px rgba(0, 0, 0, 0.1) inset;
+            -moz-box-shadow:0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 0 40px rgba(0, 0, 0, 0.1) inset;}
+    </style>
+    <script src="../../../js/jquery-1.7.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.the-icons li').click(function () {
+                var classname = $(this).find('i').attr('id');
+                var siesw = $(this).find('i').attr('dir');
+                var stilo;
+                if(siesw == 'w'){ stilo = ' style="color:#fff;"'; }else{ stilo = ''; }
+                parent.oUtil.obj.insertHTML('<i' + stilo + ' class="fa fa-' + classname + ' fa-fw"></i> &nbsp;');
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="row-fluid">
+    <div class="span12">
+        <div class="item">
+        <h4>Icon glyphs</h4> <br />
+        <ul class="the-icons clearfix">
+            <li><i id="glass" class="fa fa-glass fa-fw"></i> fa-glass</li>
+            <li><i id="music" class="fa fa-music fa-fw"></i> fa-music</li>
+            <li><i id="search" class="fa fa-search fa-fw"></i> fa-search</li>
+            <li><i id="envelope-o" class="fa fa-envelope-o fa-fw"></i> fa-envelope-o</li>
+            <li><i id="heart" class="fa fa-heart fa-fw"></i> fa-heart</li>
+            <li><i id="star" class="fa fa-star fa-fw"></i> fa-star</li>
+            <li><i id="star-o" class="fa fa-star-o fa-fw"></i> fa-star-o</li>
+            <li><i id="user" class="fa fa-user fa-fw"></i> fa-user</li>
+            <li><i id="film" class="fa fa-film fa-fw"></i> fa-film</li>
+            <li><i id="th-large" class="fa fa-th-large fa-fw"></i> fa-th-large</li>
+            <li><i id="th" class="fa fa-th fa-fw"></i> fa-th</li>
+            <li><i id="th-list" class="fa fa-th-list fa-fw"></i> fa-th-list</li>
+            <li><i id="check" class="fa fa-check fa-fw"></i> fa-check</li>
+            <li><i id="remove" class="fa fa-remove fa-fw"></i> fa-remove</li>
+            <li><i id="search-plus" class="fa fa-search-plus fa-fw"></i> fa-search-plus</li>
+            <li><i id="search-minus" class="fa fa-search-minus fa-fw"></i> fa-search-minus</li>
+            <li><i id="power-off" class="fa fa-power-off fa-fw"></i> fa-power-off</li>
+            <li><i id="signal" class="fa fa-signal fa-fw"></i> fa-signal</li>
+            <li><i id="cog" class="fa fa-cog fa-fw"></i> fa-cog</li>
+            <li><i id="trash-o" class="fa fa-trash-o fa-fw"></i> fa-trash-o</li>
+            <li><i id="home" class="fa fa-home fa-fw"></i> fa-home</li>
+            <li><i id="file-o" class="fa fa-file-o fa-fw"></i> fa-file-o</li>
+            <li><i id="clock-o" class="fa fa-clock-o fa-fw"></i> fa-clock-o</li>
+            <li><i id="road" class="fa fa-road fa-fw"></i> fa-road</li>
+            <li><i id="cloud-download" class="fa fa-cloud-download fa-fw"></i> fa-cloud-download</li>
+            <li><i id="arrow-circle-o-down" class="fa fa-arrow-circle-o-down fa-fw"></i> fa-arrow-circle-o-down</li>
+            <li><i id="arrow-circle-o-up" class="fa fa-arrow-circle-o-up fa-fw"></i> fa-arrow-circle-o-up</li>
+            <li><i id="inbox" class="fa fa-inbox fa-fw"></i> fa-inbox</li>
+
+            <li><i id="play-circle-o" class="fa fa-play-circle-o fa-fw"></i> fa-play-circle-o</li>
+            <li><i id="rotate-right" class="fa fa-rotate-right fa-fw"></i> fa-rotate-right</li>
+            <li><i id="refresh" class="fa fa-refresh fa-fw"></i> fa-refresh</li>
+            <li><i id="list-alt" class="fa fa-list-alt fa-fw"></i> fa-list-alt</li>
+            <li><i id="lock" class="fa fa-lock fa-fw"></i> fa-lock</li>
+            <li><i id="flag" class="fa fa-flag fa-fw"></i> fa-flag</li>
+            <li><i id="headphones" class="fa fa-headphones fa-fw"></i> fa-headphones</li>
+            <li><i id="volume-off" class="fa fa-volume-off fa-fw"></i> fa-volume-off</li>
+            <li><i id="volume-down" class="fa fa-volume-down fa-fw"></i> fa-volume-down</li>
+            <li><i id="volume-up" class="fa fa-volume-up fa-fw"></i> fa-volume-up</li>
+            <li><i id="qrcode" class="fa fa-qrcode fa-fw"></i> fa-qrcode</li>
+            <li><i id="barcode" class="fa fa-barcode fa-fw"></i> fa-barcode</li>
+            <li><i id="tag" class="fa fa-tag fa-fw"></i> fa-tag</li>
+            <li><i id="tags" class="fa fa-tags fa-fw"></i> fa-tags</li>
+            <li><i id="book" class="fa fa-book fa-fw"></i> fa-book</li>
+            <li><i id="bookmark" class="fa fa-bookmark fa-fw"></i> fa-bookmark</li>
+            <li><i id="print" class="fa fa-print fa-fw"></i> fa-print</li>
+            <li><i id="camera" class="fa fa-camera fa-fw"></i> fa-camera</li>
+            <li><i id="font" class="fa fa-font fa-fw"></i> fa-font</li>
+            <li><i id="bold" class="fa fa-bold fa-fw"></i> fa-bold</li>
+            <li><i id="italic" class="fa fa-italic fa-fw"></i> fa-italic</li>
+            <li><i id="text-height" class="fa fa-text-height fa-fw"></i> fa-text-height</li>
+            <li><i id="text-width" class="fa fa-text-width fa-fw"></i> fa-text-width</li>
+            <li><i id="align-left" class="fa fa-align-left fa-fw"></i> fa-align-left</li>
+            <li><i id="align-center" class="fa fa-align-center fa-fw"></i> fa-align-center</li>
+            <li><i id="align-right" class="fa fa-align-right fa-fw"></i> fa-align-right</li>
+            <li><i id="align-justify" class="fa fa-align-justify fa-fw"></i> fa-align-justify</li>
+            <li><i id="list" class="fa fa-list fa-fw"></i> fa-list</li>
+
+            <li><i id="indent" class="fa fa-indent fa-fw"></i> fa-indent</li>
+            <li><i id="outdent" class="fa fa-outdent fa-fw"></i> fa-outdent</li>
+            <li><i id="video-camera" class="fa fa-video-camera fa-fw"></i> fa-video-camera</li>
+            <li><i id="image" class="fa fa-image fa-fw"></i> fa-image</li>
+            <li><i id="pencil" class="fa fa-pencil fa-fw"></i> fa-pencil</li>
+            <li><i id="map-marker" class="fa fa-map-marker fa-fw"></i> fa-map-marker</li>
+            <li><i id="adjust" class="fa fa-adjust fa-fw"></i> fa-adjust</li>
+            <li><i id="tint" class="fa fa-tint fa-fw"></i> fa-tint</li>
+            <li><i id="edit" class="fa fa-edit fa-fw"></i> fa-edit</li>
+            <li><i id="share-square-o" class="fa fa-share-square-o fa-fw"></i> fa-share-square-o</li>
+            <li><i id="check-square-o" class="fa fa-check-square-o fa-fw"></i> fa-check-square-o</li>
+            <li><i id="arrows" class="fa fa-arrows fa-fw"></i> fa-arrows</li>
+            <li><i id="step-backward" class="fa fa-step-backward fa-fw"></i> fa-step-backward</li>
+            <li><i id="fast-backward" class="fa fa-fast-backward fa-fw"></i> fa-fast-backward</li>
+            <li><i id="backward" class="fa fa-backward fa-fw"></i> fa-backward</li>
+            <li><i id="play" class="fa fa-play fa-fw"></i> fa-play</li>
+            <li><i id="pause" class="fa fa-pause fa-fw"></i> fa-pause</li>
+            <li><i id="stop" class="fa fa-stop fa-fw"></i> fa-stop</li>
+            <li><i id="forward" class="fa fa-forward fa-fw"></i> fa-forward</li>
+            <li><i id="fast-forward" class="fa fa-fast-forward fa-fw"></i> fa-fast-forward</li>
+            <li><i id="step-forward" class="fa fa-step-forward fa-fw"></i> fa-step-forward</li>
+            <li><i id="eject" class="fa fa-eject fa-fw"></i> fa-eject</li>
+            <li><i id="chevron-left" class="fa fa-chevron-left fa-fw"></i> fa-chevron-left</li>
+            <li><i id="chevron-right" class="fa fa-chevron-right fa-fw"></i> fa-chevron-right</li>
+            <li><i id="plus-circle" class="fa fa-plus-circle fa-fw"></i> fa-plus-circle</li>
+            <li><i id="minus-circle" class="fa fa-minus-circle fa-fw"></i> fa-minus-circle</li>
+            <li><i id="times-circle" class="fa fa-times-circle fa-fw"></i> fa-times-circle</li>
+            <li><i id="check-circle" class="fa fa-check-circle fa-fw"></i> fa-check-circle</li>
+
+            <li><i id="question-circle" class="fa fa-question-circle fa-fw"></i> fa-question-circle</li>
+            <li><i id="info-circle" class="fa fa-info-circle fa-fw"></i> fa-info-circle</li>
+            <li><i id="crosshairs" class="fa fa-crosshairs fa-fw"></i> fa-crosshairs</li>
+            <li><i id="times-circle-o" class="fa fa-times-circle-o fa-fw"></i> fa-times-circle-o</li>
+            <li><i id="check-circle-o" class="fa fa-check-circle-o fa-fw"></i> fa-check-circle-o</li>
+            <li><i id="ban" class="fa fa-ban fa-fw"></i> fa-ban</li>
+            <li><i id="arrow-left" class="fa fa-arrow-left fa-fw"></i> fa-arrow-left</li>
+            <li><i id="arrow-right" class="fa fa-arrow-right fa-fw"></i> fa-arrow-right</li>
+            <li><i id="arrow-up" class="fa fa-arrow-up fa-fw"></i> fa-arrow-up</li>
+            <li><i id="arrow-down" class="fa fa-arrow-down fa-fw"></i> fa-arrow-down</li>
+            <li><i id="share" class="fa fa-share fa-fw"></i> fa-share</li>
+            <li><i id="expand" class="fa fa-expand fa-fw"></i> fa-expand</li>
+            <li><i id="compress" class="fa fa-compress fa-fw"></i> fa-compress</li>
+            <li><i id="plus" class="fa fa-plus fa-fw"></i> fa-plus</li>
+            <li><i id="minus" class="fa fa-minus fa-fw"></i> fa-minus</li>
+            <li><i id="asterisk" class="fa fa-asterisk fa-fw"></i> fa-asterisk</li>
+            <li><i id="exclamation-circle" class="fa fa-exclamation-circle fa-fw"></i> fa-exclamation-circle</li>
+            <li><i id="gift" class="fa fa-gift fa-fw"></i> fa-gift</li>
+            <li><i id="leaf" class="fa fa-leaf fa-fw"></i> fa-leaf</li>
+            <li><i id="fire" class="fa fa-fire fa-fw"></i> fa-fire</li>
+            <li><i id="eye" class="fa fa-eye fa-fw"></i> fa-eye</li>
+            <li><i id="eye-slash" class="fa fa-eye-slash fa-fw"></i> fa-eye-slash</li>
+            <li><i id="warning" class="fa fa-warning fa-fw"></i> fa-warning</li>
+            <li><i id="plane" class="fa fa-plane fa-fw"></i> fa-plane</li>
+            <li><i id="calendar" class="fa fa-calendar fa-fw"></i> fa-calendar</li>
+            <li><i id="random" class="fa fa-random fa-fw"></i> fa-random</li>
+            <li><i id="comment" class="fa fa-comment fa-fw"></i> fa-comment</li>
+            <li><i id="magnet" class="fa fa-magnet fa-fw"></i> fa-magnet</li>
+
+            <li><i id="chevron-up" class="fa fa-chevron-up fa-fw"></i> fa-chevron-up</li>
+            <li><i id="chevron-down" class="fa fa-chevron-down fa-fw"></i> fa-chevron-down</li>
+            <li><i id="retweet" class="fa fa-retweet fa-fw"></i> fa-retweet</li>
+            <li><i id="shopping-cart" class="fa fa-shopping-cart fa-fw"></i> fa-shopping-cart</li>
+            <li><i id="folder" class="fa fa-folder fa-fw"></i> fa-folder</li>
+            <li><i id="folder-open" class="fa fa-folder-open fa-fw"></i> fa-folder-open</li>
+            <li><i id="arrows-v" class="fa fa-arrows-v fa-fw"></i> fa-arrows-v</li>
+            <li><i id="arrows-h" class="fa fa-arrows-h fa-fw"></i> fa-arrows-h</li>
+            <li><i id="hdd-o" class="fa fa-hdd-o fa-fw"></i> fa-hdd-o</li>
+            <li><i id="bullhorn" class="fa fa-bullhorn fa-fw"></i> fa-bullhorn</li>
+            <li><i id="bell" class="fa fa-bell fa-fw"></i> fa-bell</li>
+            <li><i id="certificate" class="fa fa-certificate fa-fw"></i> fa-certificate</li>
+            <li><i id="thumbs-up" class="fa fa-thumbs-up fa-fw"></i> fa-thumbs-up</li>
+            <li><i id="thumbs-down" class="fa fa-thumbs-down fa-fw"></i> fa-thumbs-down</li>
+            <li><i id="hand-o-right" class="fa fa-hand-o-right fa-fw"></i> fa-hand-o-right</li>
+            <li><i id="hand-o-left" class="fa fa-hand-o-left fa-fw"></i> fa-hand-o-left</li>
+            <li><i id="hand-o-up" class="fa fa-hand-o-up fa-fw"></i> fa-hand-o-up</li>
+            <li><i id="hand-o-down" class="fa fa-hand-o-down fa-fw"></i> fa-hand-o-down</li>
+            <li><i id="arrow-circle-right" class="fa fa-arrow-circle-right fa-fw"></i> fa-arrow-circle-right</li>
+            <li><i id="arrow-circle-left" class="fa fa-arrow-circle-left fa-fw"></i> fa-arrow-circle-left</li>
+            <li><i id="arrow-circle-up" class="fa fa-arrow-circle-up fa-fw"></i> fa-arrow-circle-up</li>
+            <li><i id="arrow-circle-down" class="fa fa-arrow-circle-down fa-fw"></i> fa-arrow-circle-down</li>
+            <li><i id="globe" class="fa fa-globe fa-fw"></i> fa-globe</li>
+            <li><i id="wrench" class="fa fa-wrench fa-fw"></i> fa-wrench</li>
+            <li><i id="tasks" class="fa fa-tasks fa-fw"></i> fa-tasks</li>
+            <li><i id="filter" class="fa fa-filter fa-fw"></i> fa-filter</li>
+            <li><i id="briefcase" class="fa fa-briefcase fa-fw"></i> fa-briefcase</li>
+            <li><i id="arrows-alt" class="fa fa-arrows-alt fa-fw"></i> fa-arrows-alt</li>
+        </ul>
+        </div>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+        <div class="item" style="background:#000000;color:#ffffff">
+        <ul class="the-icons clearfix">
+            <li><i dir="w" id="glass" class="fa fa-glass fa-white fa-fw"></i> fa-glass</li>
+            <li><i dir="w" id="music" class="fa fa-music fa-white fa-fw"></i> fa-music</li>
+            <li><i dir="w" id="search" class="fa fa-search fa-white fa-fw"></i> fa-search</li>
+            <li><i dir="w" id="envelope-o" class="fa fa-envelope-o fa-white fa-fw"></i> fa-envelope-o</li>
+            <li><i dir="w" id="heart" class="fa fa-heart fa-white fa-fw"></i> fa-heart</li>
+            <li><i dir="w" id="star" class="fa fa-star fa-white fa-fw"></i> fa-star</li>
+            <li><i dir="w" id="star-o" class="fa fa-star-o fa-white fa-fw"></i> fa-star-o</li>
+            <li><i dir="w" id="user" class="fa fa-user fa-white fa-fw"></i> fa-user</li>
+            <li><i dir="w" id="film" class="fa fa-film fa-white fa-fw"></i> fa-film</li>
+            <li><i dir="w" id="th-large" class="fa fa-th-large fa-white fa-fw"></i> fa-th-large</li>
+            <li><i dir="w" id="th" class="fa fa-th fa-th fa-fw"></i> fa-th</li>
+            <li><i dir="w" id="th-list" class="fa fa-th-list fa-white fa-fw"></i> fa-th-list</li>
+            <li><i dir="w" id="check" class="fa fa-check fa-white fa-fw"></i> fa-check</li>
+            <li><i dir="w" id="remove" class="fa fa-remove fa-white fa-fw"></i> fa-remove</li>
+            <li><i dir="w" id="search-plus" class="fa fa-search-plus fa-white fa-fw"></i> fa-search-plus</li>
+            <li><i dir="w" id="search-minus" class="fa fa-search-minus fa-white fa-fw"></i> fa-search-minus</li>
+            <li><i dir="w" id="power-off" class="fa fa-power-off fa-white fa-fw"></i> fa-power-off</li>
+            <li><i dir="w" id="signal" class="fa fa-signal fa-white fa-fw"></i> fa-signal</li>
+            <li><i dir="w" id="cog" class="fa fa-cog fa-white fa-fw"></i> fa-cog</li>
+            <li><i dir="w" id="trash-o" class="fa fa-trash-o fa-white fa-fw"></i> fa-trash-o</li>
+            <li><i dir="w" id="home" class="fa fa-home fa-white fa-fw"></i> fa-home</li>
+            <li><i dir="w" id="file-o" class="fa fa-file-o fa-white fa-fw"></i> fa-file-o</li>
+            <li><i dir="w" id="clock-o" class="fa fa-clock-o fa-white fa-fw"></i> fa-clock-o</li>
+            <li><i dir="w" id="road" class="fa fa-road fa-white fa-fw"></i> fa-road</li>
+            <li><i dir="w" id="cloud-download" class="fa fa-cloud-download fa-white fa-fw"></i> fa-cloud-download</li>
+            <li><i dir="w" id="arrow-circle-o-down" class="fa fa-arrow-circle-o-down fa-white fa-fw"></i> fa-arrow-circle-o-down</li>
+            <li><i dir="w" id="arrow-circle-o-up" class="fa fa-arrow-circle-o-up fa-white fa-fw"></i> fa-arrow-circle-o-up</li>
+            <li><i dir="w" id="inbox" class="fa fa-inbox fa-white fa-fw"></i> fa-inbox</li>
+
+            <li><i dir="w" id="play-circle-o" class="fa fa-play-circle-o fa-white fa-fw"></i> fa-play-circle-o</li>
+            <li><i dir="w" id="rotate-right" class="fa fa-rotate-right fa-white fa-fw"></i> fa-rotate-right</li>
+            <li><i dir="w" id="refresh" class="fa fa-refresh fa-white fa-fw"></i> fa-refresh</li>
+            <li><i dir="w" id="list-alt" class="fa fa-list-alt fa-white fa-fw"></i> fa-list-alt</li>
+            <li><i dir="w" id="lock" class="fa fa-lock fa-white fa-fw"></i> fa-lock</li>
+            <li><i dir="w" id="flag" class="fa fa-flag fa-white fa-fw"></i> fa-flag</li>
+            <li><i dir="w" id="headphones" class="fa fa-headphones fa-white fa-fw"></i> fa-headphones</li>
+            <li><i dir="w" id="volume-off" class="fa fa-volume-off fa-white fa-fw"></i> fa-volume-off</li>
+            <li><i dir="w" id="volume-down" class="fa fa-volume-down fa-white fa-fw"></i> fa-volume-down</li>
+            <li><i dir="w" id="volume-up" class="fa fa-volume-up fa-white fa-fw"></i> fa-volume-up</li>
+            <li><i dir="w" id="qrcode" class="fa fa-qrcode fa-white fa-fw"></i> fa-qrcode</li>
+            <li><i dir="w" id="barcode" class="fa fa-barcode fa-white fa-fw"></i> fa-barcode</li>
+            <li><i dir="w" id="tag" class="fa fa-tag fa-white fa-fw"></i> fa-tag</li>
+            <li><i dir="w" id="tags" class="fa fa-tags fa-white fa-fw"></i> fa-tags</li>
+            <li><i dir="w" id="book" class="fa fa-book fa-white fa-fw"></i> fa-book</li>
+            <li><i dir="w" id="bookmark" class="fa fa-bookmark fa-white fa-fw"></i> fa-bookmark</li>
+            <li><i dir="w" id="print" class="fa fa-print fa-white fa-fw"></i> fa-print</li>
+            <li><i dir="w" id="camera" class="fa fa-camera fa-white fa-fw"></i> fa-camera</li>
+            <li><i dir="w" id="font" class="fa fa-font fa-white fa-fw"></i> fa-font</li>
+            <li><i dir="w" id="bold" class="fa fa-bold fa-white fa-fw"></i> fa-bold</li>
+            <li><i dir="w" id="italic" class="fa fa-italic fa-white fa-fw"></i> fa-italic</li>
+            <li><i dir="w" id="text-height" class="fa fa-text-height fa-white fa-fw"></i> fa-text-height</li>
+            <li><i dir="w" id="text-width" class="fa fa-text-width fa-white fa-fw"></i> fa-text-width</li>
+            <li><i dir="w" id="align-left" class="fa fa-align-left fa-white fa-fw"></i> fa-align-left</li>
+            <li><i dir="w" id="align-center" class="fa fa-align-center fa-white fa-fw"></i> fa-align-center</li>
+            <li><i dir="w" id="align-right" class="fa fa-align-right fa-white fa-fw"></i> fa-align-right</li>
+            <li><i dir="w" id="align-justify" class="fa fa-align-justify fa-white fa-fw"></i> fa-align-justify</li>
+            <li><i dir="w" id="list" class="fa fa-list fa-white fa-fw"></i> fa-list</li>
+
+            <li><i dir="w" id="indent" class="fa fa-indent fa-white fa-fw"></i> fa-indent</li>
+            <li><i dir="w" id="outdent" class="fa fa-outdent fa-white fa-fw"></i> fa-outdent</li>
+            <li><i dir="w" id="video-camera" class="fa fa-video-camera fa-white fa-fw"></i> fa-video-camera</li>
+            <li><i dir="w" id="image" class="fa fa-image fa-white fa-fw"></i> fa-image</li>
+            <li><i dir="w" id="pencil" class="fa fa-pencil fa-white fa-fw"></i> fa-pencil</li>
+            <li><i dir="w" id="map-marker" class="fa fa-map-marker fa-white fa-fw"></i> fa-map-marker</li>
+            <li><i dir="w" id="adjust" class="fa fa-adjust fa-white fa-fw"></i> fa-adjust</li>
+            <li><i dir="w" id="tint" class="fa fa-tint fa-white fa-fw"></i> fa-tint</li>
+            <li><i dir="w" id="edit" class="fa fa-edit fa-white fa-fw"></i> fa-edit</li>
+            <li><i dir="w" id="share-square-o" class="fa fa-share-square-o fa-white fa-fw"></i> fa-share-square-o</li>
+            <li><i dir="w" id="check-square-o" class="fa fa-check-square-o fa-white fa-fw"></i> fa-check-square-o</li>
+            <li><i dir="w" id="arrows" class="fa fa-arrows fa-white fa-fw"></i> fa-arrows</li>
+            <li><i dir="w" id="step-backward" class="fa fa-step-backward fa-white fa-fw"></i> fa-step-backward</li>
+            <li><i dir="w" id="fast-backward" class="fa fa-fast-backward fa-white fa-fw"></i> fa-fast-backward</li>
+            <li><i dir="w" id="backward" class="fa fa-backward fa-white fa-fw"></i> fa-backward</li>
+            <li><i dir="w" id="play" class="fa fa-play fa-white fa-fw"></i> fa-play</li>
+            <li><i dir="w" id="pause" class="fa fa-pause fa-white fa-fw"></i> fa-pause</li>
+            <li><i dir="w" id="stop" class="fa fa-stop fa-white fa-fw"></i> fa-stop</li>
+            <li><i dir="w" id="forward" class="fa fa-forward fa-white fa-fw"></i> fa-forward</li>
+            <li><i dir="w" id="fast-forward" class="fa fa-fast-forward fa-white fa-fw"></i> fa-fast-forward</li>
+            <li><i dir="w" id="step-forward" class="fa fa-step-forward fa-white fa-fw"></i> fa-step-forward</li>
+            <li><i dir="w" id="eject" class="fa fa-eject fa-white fa-fw"></i> fa-eject</li>
+            <li><i dir="w" id="chevron-left" class="fa fa-chevron-left fa-white fa-fw"></i> fa-chevron-left</li>
+            <li><i dir="w" id="chevron-right" class="fa fa-chevron-right fa-white fa-fw"></i> fa-chevron-right</li>
+            <li><i dir="w" id="plus-circle" class="fa fa-plus-circle fa-white fa-fw"></i> fa-plus-circle</li>
+            <li><i dir="w" id="minus-circle" class="fa fa-minus-circle fa-white fa-fw"></i> fa-minus-circle</li>
+            <li><i dir="w" id="times-circle" class="fa fa-times-circle fa-white fa-fw"></i> fa-times-circle</li>
+            <li><i dir="w" id="check-circle" class="fa fa-check-circle fa-white fa-fw"></i> fa-check-circle</li>
+
+            <li><i dir="w" id="question-circle" class="fa fa-question-circle fa-white fa-fw"></i> fa-question-circle</li>
+            <li><i dir="w" id="info-circle" class="fa fa-info-circle fa-white fa-fw"></i> fa-info-circle</li>
+            <li><i dir="w" id="crosshairs" class="fa fa-crosshairs fa-white fa-fw"></i> fa-crosshairs</li>
+            <li><i dir="w" id="times-circle-o" class="fa fa-times-circle-o fa-white fa-fw"></i> fa-times-circle-o</li>
+            <li><i dir="w" id="check-circle-o" class="fa fa-check-circle-o fa-white fa-fw"></i> fa-check-circle-o</li>
+            <li><i dir="w" id="ban" class="fa fa-ban fa-white fa-fw"></i> fa-ban</li>
+            <li><i dir="w" id="arrow-left" class="fa fa-arrow-left fa-white fa-fw"></i> fa-arrow-left</li>
+            <li><i dir="w" id="arrow-right" class="fa fa-arrow-right fa-white fa-fw"></i> fa-arrow-right</li>
+            <li><i dir="w" id="arrow-up" class="fa fa-arrow-up fa-white fa-fw"></i> fa-arrow-up</li>
+            <li><i dir="w" id="arrow-down" class="fa fa-arrow-down fa-white fa-fw"></i> fa-arrow-down</li>
+            <li><i dir="w" id="share" class="fa fa-share fa-white fa-fw"></i> fa-share</li>
+            <li><i dir="w" id="expand" class="fa fa-expand fa-white fa-fw"></i> fa-expand</li>
+            <li><i dir="w" id="compress" class="fa fa-compress fa-white fa-fw"></i> fa-compress</li>
+            <li><i dir="w" id="plus" class="fa fa-plus fa-white fa-fw"></i> fa-plus</li>
+            <li><i dir="w" id="minus" class="fa fa-minus fa-white fa-fw"></i> fa-minus</li>
+            <li><i dir="w" id="asterisk" class="fa fa-asterisk fa-white fa-fw"></i> fa-asterisk</li>
+            <li><i dir="w" id="exclamation-circle" class="fa fa-exclamation-circle fa-white fa-fw"></i> fa-exclamation-circle</li>
+            <li><i dir="w" id="gift" class="fa fa-gift fa-white fa-fw"></i> fa-gift</li>
+            <li><i dir="w" id="leaf" class="fa fa-leaf fa-white fa-fw"></i> fa-leaf</li>
+            <li><i dir="w" id="fire" class="fa fa-fire fa-white fa-fw"></i> fa-fire</li>
+            <li><i dir="w" id="eye" class="fa fa-eye fa-white fa-fw"></i> fa-eye</li>
+            <li><i dir="w" id="eye-slash" class="fa fa-eye-slash fa-white fa-fw"></i> fa-eye-slash</li>
+            <li><i dir="w" id="warning" class="fa fa-warning fa-white fa-fw"></i> fa-warning</li>
+            <li><i dir="w" id="plane" class="fa fa-plane fa-white fa-fw"></i> fa-plane</li>
+            <li><i dir="w" id="calendar" class="fa fa-calendar fa-white fa-fw"></i> fa-calendar</li>
+            <li><i dir="w" id="random" class="fa fa-random fa-white fa-fw"></i> fa-random</li>
+            <li><i dir="w" id="comment" class="fa fa-comment fa-white fa-fw"></i> fa-comment</li>
+            <li><i dir="w" id="magnet" class="fa fa-magnet fa-white fa-fw"></i> fa-magnet</li>
+
+            <li><i dir="w" id="chevron-up" class="fa fa-chevron-up fa-white fa-fw"></i> fa-chevron-up</li>
+            <li><i dir="w" id="chevron-down" class="fa fa-chevron-down fa-white fa-fw"></i> fa-chevron-down</li>
+            <li><i dir="w" id="retweet" class="fa fa-retweet fa-white fa-fw"></i> fa-retweet</li>
+            <li><i dir="w" id="shopping-cart" class="fa fa-shopping-cart fa-white fa-fw"></i> fa-shopping-cart</li>
+            <li><i dir="w" id="folder" class="fa fa-folder fa-white fa-fw"></i> fa-folder</li>
+            <li><i dir="w" id="folder-open" class="fa fa-folder-open fa-white fa-fw"></i> fa-folder-open</li>
+            <li><i dir="w" id="arrows-v" class="fa fa-arrows-v fa-white fa-fw"></i> fa-arrows-v</li>
+            <li><i dir="w" id="arrows-h" class="fa fa-arrows-h fa-white fa-fw"></i> fa-arrows-h</li>
+            <li><i dir="w" id="hdd-o" class="fa fa-hdd-o fa-white fa-fw"></i> fa-hdd-o</li>
+            <li><i dir="w" id="bullhorn" class="fa fa-bullhorn fa-white fa-fw"></i> fa-bullhorn</li>
+            <li><i dir="w" id="bell" class="fa fa-bell fa-white fa-fw"></i> fa-bell</li>
+            <li><i dir="w" id="certificate" class="fa fa-certificate fa-white fa-fw"></i> fa-certificate</li>
+            <li><i dir="w" id="thumbs-up" class="fa fa-thumbs-up fa-white fa-fw"></i> fa-thumbs-up</li>
+            <li><i dir="w" id="thumbs-down" class="fa fa-thumbs-down fa-white fa-fw"></i> fa-thumbs-down</li>
+            <li><i dir="w" id="hand-o-right" class="fa fa-hand-o-right fa-white fa-fw"></i> fa-hand-o-right</li>
+            <li><i dir="w" id="hand-o-left" class="fa fa-hand-o-left fa-white fa-fw"></i> fa-hand-o-left</li>
+            <li><i dir="w" id="hand-o-up" class="fa fa-hand-o-up fa-white fa-fw"></i> fa-hand-o-up</li>
+            <li><i dir="w" id="hand-o-down" class="fa fa-hand-o-down fa-white fa-fw"></i> fa-hand-o-down</li>
+            <li><i dir="w" id="arrow-circle-right" class="fa fa-arrow-circle-right fa-white fa-fw"></i> fa-arrow-circle-right</li>
+            <li><i dir="w" id="arrow-circle-left" class="fa fa-arrow-circle-left fa-white fa-fw"></i> fa-arrow-circle-left</li>
+            <li><i dir="w" id="arrow-circle-up" class="fa fa-arrow-circle-up fa-white fa-fw"></i> fa-arrow-circle-up</li>
+            <li><i dir="w" id="arrow-circle-down" class="fa fa-arrow-circle-down fa-white fa-fw"></i> fa-arrow-circle-down</li>
+            <li><i dir="w" id="globe" class="fa fa-globe fa-white fa-fw"></i> fa-globe</li>
+            <li><i dir="w" id="wrench" class="fa fa-wrench fa-white fa-fw"></i> fa-wrench</li>
+            <li><i dir="w" id="tasks" class="fa fa-tasks fa-white fa-fw"></i> fa-tasks</li>
+            <li><i dir="w" id="filter" class="fa fa-filter fa-white fa-fw"></i> fa-filter</li>
+            <li><i dir="w" id="briefcase" class="fa fa-briefcase fa-white fa-fw"></i> fa-briefcase</li>
+            <li><i dir="w" id="arrows-alt" class="fa fa-arrows-alt fa-white fa-fw"></i> fa-arrows-alt</li>
+        </ul>
+        </div>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+
+    </div>
+</div>
+
+</body>
+</html>

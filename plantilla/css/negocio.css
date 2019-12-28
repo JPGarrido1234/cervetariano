@@ -1,0 +1,121 @@
+.ficha-negocio{font-family:'Poppins', sans-serif;background:#fff;}
+.negocio-cabecera{margin-bottom:40px;}
+.logo-negocio img{margin-top:-70px;width:140px;height:140px;}
+.titulares{color:#E0701E;} /*naranja*/
+.titulo-negocio{font-weight:700;font-size:22px;margin-top:15px;}
+.eslogan-negocio{color:#F99D2A;font-size:17px;font-weight:100;} /*amarillo*/
+.negocio-cabecera .botones a{padding:10px 5px;margin-right:5px;margin-top:30px;display:inline-block;border-radius:5px;color:#fff;}
+.btn-seguir, .btn-compartir, .btn-reportar, .btn-siguiendo{background:#F99D2A;}
+.btn-recomendar, .btn-recomendado{background:#43B753;} /*verde*/
+.menu-negocio a{display:inline-block;color:#888888;padding:5px;margin:0px 30px 15px 30px;font-size:16px;}
+.caja-borde{border:1px solid #888888;border-radius:4px;margin-bottom:20px;padding:5px 10px 20px 10px;}
+.caja-borde .titulo{color:#E0701E;height:30px;}
+.contenido-negocio .parte-izquierda{padding-bottom:50px;}
+.caja-borde .titulo span{display:block;float:left;}
+.caja-borde .titulo span.icono{padding-right:6px;font-size:18px;}
+.caja-borde .titulo span.texto{font-weight:700;}
+.caja-borde .titulo i{color:#888888;}
+.caja-borde .titulo i.la{font-size:22px;}
+.ver-cervezas .titular-zonas{text-align:center;padding-top:15px;}
+.ver-cervezas .titular-zonas a{color:#888888;margin-top:10px;}
+.ver-valoraciones .valoraciones .caja{width:20%;float:left;position:relative;min-height:1px;}
+.ver-valoraciones .valoraciones .caja .datos{text-align:center;}
+.ver-valoraciones .valoraciones .caja .datos .titulo{color:#888888;padding-bottom:45px;}
+.ver-valoraciones .valoraciones .caja .datos .valor{color:#43B753;font-size:28px;font-weight:100;}
+.ver-valoraciones .valoraciones .media{float:left;color:#43B753;}
+.ver-valoraciones .valoraciones .media .valor-media{float:left;font-size:44px;font-weight:100;padding-right:5px;padding-top:0px;line-height:40px;}
+.ver-valoraciones .valoraciones .media .valor-titulo{float:left;text-align:left;}
+.ver-valoraciones .valoraciones .media .datos{float:left;margin-left:30%;margin-top:9%;}
+.ver-servicios ul{column-count:3;}
+.ver-servicios ul li{list-style:none;padding:10px 0;color:#888888;}
+.ver-servicios ul li i{margin-right:15px;}
+.ver-servicios ul li i:before{background:rgba(136,136,136,0.1);border-radius:57px;padding:5px 7px 5px 9px;}
+.redes-negocio img{margin-bottom:10px;}
+.registra-cerveza{text-align:center;}
+.registra-cerveza a{color:#ffffff;padding:5px 10px;}
+
+.select2{width:100% !important;}
+
+.margb{margin-bottom:40px;}
+.votacion {list-style:none;margin: 0px auto !important;padding:0px !important;height: 30px;position: relative;background: url(../../imagen/starrating.png) top left repeat-x;}
+.votacion li{ text-indent: -90000px;padding:0px;margin:0px; float: left; }
+.votacion li a {outline:none;display:block;width:30px;height:30px;text-decoration:none;text-indent:-9000px;z-index:20;position:absolute;padding:0px;}
+.votacion li a:hover{background: url(../../imagen/starrating.png) left center;z-index:2;left:0px;cursor:pointer;}
+.votacion a.voto1{left: 0px;}
+.votacion a.voto1:hover{width:30px;}
+.votacion a.voto2{left:30px;}
+.votacion a.voto2:hover{width: 60px;}
+.votacion a.voto3{left: 60px;}
+.votacion a.voto3:hover{width: 90px;}
+.votacion a.voto4{left: 90px;}	
+.votacion a.voto4:hover{width: 120px;}
+.votacion a.voto5{left: 120px;}
+.votacion a.voto5:hover{width: 150px;}
+.votacion a.voto6{left: 150px;}
+.votacion a.voto6:hover{width: 180px;}
+.votacion a.voto7{left: 180px;}
+.votacion a.voto7:hover{width: 210px;}
+.votacion a.voto8{left: 210px;}
+.votacion a.voto8:hover{width: 240px;}
+.votacion a.voto9{left: 240px;}
+.votacion a.voto9:hover{width: 270px;}
+.votacion a.voto10{left: 270px;}
+.votacion a.voto10:hover{width: 300px;}
+.votacion li.barra {background:url(../../imagen/starrating.png) left bottom;position:absolute;height:30px;display:block;text-indent:-9000px;z-index:1;}
+.zona-votar p{text-align:center;}
+
+.fdh{visibility: hidden;}
+
+.btn-enviar, .btn-reenviar{padding:13px;margin-right:5px;margin-top:30px;display:inline-block;border-radius:5px;color:#fff;float:right;background:#F99D2A;cursor:pointer;}
+.btn-enviar:before{content:"\f1d9";font: normal normal normal 14px/1 FontAwesome;margin-right:6px;}
+.caja-nombre-email{padding-bottom:25px;}
+textarea{resize:none;}
+.comentario .contenido-caja .titulo{margin-bottom:30px;}
+.mapa-negocio{margin-top:40px;}
+.parte-derecha .titular{color:#E0701E;font-weight:bold;}
+.ic-arrow-angle-left:before{font: normal normal normal 14px/1 FontAwesome;content: "\f053";}
+.ic-arrow-circle-angle-down:before{font: normal normal normal 14px/1 FontAwesome;content: "\f01a";}
+.ic-arrow-angle-right:before{font: normal normal normal 14px/1 FontAwesome;content: "\f054";}
+.ic-target:before{font: normal normal normal 14px/1 FontAwesome;content: "\f00d";}
+.nao-month td.evento{transition:box-shadow .3s ease .5s;box-shadow:2px 2px 2px 20px #F99D2A inset;}
+.comentario-reclama, .email-nombre-reclama{margin-top:40px;}
+button{cursor:pointer;}
+.redes-negocio a{margin-right:20px;}
+.comentado{}
+.menu-btn{float:left;position:relative;}
+.menu-compartir{position:absolute;right:9px;top:70px;opacity:0;-webkit-transition:opacity .25s ease .1s;-moz-transition:opacity .25s ease .1s;-o-transition:opacity .25s ease .1s;-ms-transition:opacity .25s ease .1s;transition:opacity .25s ease .1s;width:200px;right:-40px;}
+.menu-compartir i{color:#E0701E;font-size:24px;}
+.btn-compartir-caja{cursor:pointer;margin-top:0;}
+.menu-compartir a{margin-top:0px !important;}
+.mapa-negocio iframe{width:100% !important; max-height:250px;}
+.slick-slide iframe{width:100%;}
+
+.row.campos{
+	margin-bottom:15px;
+}
+
+.label-foto{color:#888888;font-weight:200;border:1px solid #cccccc;width:100%;padding:5px;border-radius:4px;}
+
+@media screen and (max-width:630px){
+	.ver-valoraciones .valoraciones .caja{width:50%;}
+	.ver-valoraciones .valoraciones .caja.media{width:100%;margin-bottom:30px;}
+	.caja-emblemas .col-sm-6, .info-ppal .logo-negocio{width:50%;float:left;}
+	.info-ppal .titulares .eslogan-negocio{clear:both;}
+	.logo-negocio img{width:85px;height:85px;margin:10px 0 15px 0;}
+	.redes-negocio .menu-btn{width:100%;margin-left:0;margin-top:15px;}
+	.menu-negocio a{width:49%;display:inline-block;margin:0;padding:0px 11px 17px;}
+	.ver-servicios ul{column-count:2;}
+	.negocio-cabecera .botones a{width:100%;margin-top:10px;}
+	.negocio-cabecera .botones .menu-btn{width:100%;}
+	.redes-negocio a{display:inline-block;margin-bottom:15px;}
+}
+
+@media screen and (min-width:1000px) and (max-width:1250px){
+	.contenido-caja > .row > .col-sm-6{width:100%;}
+}
+
+@media screen and (max-width:1000px){
+	.zona-votar .col-sm-6{width:100%;}
+	.contenido-caja .col-sm-6{width:100%;}
+}
+

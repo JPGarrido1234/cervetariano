@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+
+RewriteEngine On
+
+RewriteBase /adminmlg/
+
+
+
+
+
+
+
+ErrorDocument 404 /404.php

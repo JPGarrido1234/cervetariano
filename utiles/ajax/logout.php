@@ -1,0 +1,1 @@
+<?php session_start(); include('../php/config.php'); unset($_SESSION['user-web-'.$userzft]); setcookie('user-web-'.$userzft, null, -1, '/'); header('location: '.$urlppal); exit(); ?>

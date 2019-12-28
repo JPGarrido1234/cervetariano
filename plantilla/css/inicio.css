@@ -1,0 +1,55 @@
+.banda{background:url('../../imagen/redescabecera/banda.png') no-repeat;width:100%;height:136px;margin:0 auto;background-size:contain;background-position:center;}
+.banda-s{background:url('../../imagen/redescabecera/banda-s.png') no-repeat;width:534px;height:137px;margin:0 auto;}
+.banda .ubicacion, .banda .buscar-lupa{padding-top:16px;}
+.zona-banda{font-family:'Poppins', sans-serif;}
+.banda .titular, .banda-s .titular{color:#fff;font-weight:700;text-transform:uppercase;font-size:40px;}
+.zona-banda .texto{color:#F99D2A;font-size:23px;font-weight:100;}
+.caja-1 img, .slick-slide img{outline:1px solid #E0701E;outline-offset:-5px;}
+.caja-1 .imagen .imagen-titular{position:absolute;bottom:0;width:100%;}
+.caja-1 .imagen .imagen-titular .boton, .titular-zonas a{color:#fff;background:rgba(0,0,0,0.7);padding:5px 0px;width:90%;display:block;margin:0 auto;margin-bottom:10px;font-family:'Roboto', sans-serif;font-weight:100;font-size:17px;}
+.caja-1 .slide{width:960px;margin:0 auto;padding-top:25px;height:266px;}
+.categoria-cerveza{width:342px;height:266px;position:relative;display:inline;float:left;margin-right:5px;}
+.categoria-burguer{width:222px;height:266px;position:relative;display:inline;float:left;margin-right:5px;}
+.categoria-pizza-cocktails{width:373px;height:266px;position:relative;display:inline;float:left;margin-right:5px;}
+.categoria-pizza{width:373px;position:relative;display:block;height:129px;margin-bottom:8px;}
+.categoria-cocktails{width:373px;display:block;position:relative;}
+.banda .ubicacion img, .banda .cervezas img, .caja-3 img{outline:0;outline-offset:0px;}
+.enlace-categorias a, .caja-3 .slide .enlaces a{float:right;background:#F99D2A;color:rgba(255,255,255,0.9);margin-top:15px;font-weight:600;font-size:17px;padding-top:12px;padding-bottom:12px;margin-left:15px;}
+.enlace-categorias{width:960px;padding-right:12px;}
+.titular-zonas{position:absolute;bottom:0;width:100%;}
+.banda-s .cervezas img{margin-top:10px;}
+.caja-3{}
+.caja-3 .slick-slide img{width:auto;margin:0 auto;}
+.caja-3 .slide{max-width:1043px;margin:0 auto;}
+.caja-3 .slide .informacion{text-align:left;padding-top:50px;}
+.caja-3 .slide .informacion .titular{text-transform:uppercase;color:#F99D2A;font-size:23px;font-family:'Poppins', sans-serif;font-weight:bold;padding-bottom:20px;}
+.caja-3 .slide .informacion .texto{font-family:'Roboto', sans-serif;color:#888888;font-size:18px;font-weight:100;}
+.caja-3 .slide .informacion .texto p{padding-bottom:20px;}
+.caja-3 .slick-prev, .caja-3 .slick-next{top:18% !important;}
+.caja-3 .slick-prev{right:30px !important;left:auto;}
+.caja-3 .slick-next{right:5px !important;}
+.caja-1, .caja-2, .caja-3{padding-top:30px;padding-bottom:20px;}
+.caja-3 .caja-cervezas .imagen img{height:100%;max-height:400px;}
+
+@media screen and (max-width:970px){
+	.caja-1 .slide, .enlace-categorias{width:100%;height:auto;}
+	.categoria-cerveza, .categoria-burguer, .categoria-pizza-cocktails, .categoria-pizza, .categoria-cocktails{margin:0 auto;float:none;display:block;}
+}
+
+
+@media screen and (max-width:630px){
+    .caja-2 .slick-initialized .slick-slide{width:48% !important;}
+    .banda-s{width:100%;background-size:contain !important;}
+    .caja-1 .banda .titular, .caja-2 .banda .titular{font-size:15px;}
+    .categoria-cerveza, .categoria-burguer, .categoria-pizza-cocktails, .categoria-pizza, .categoria-cocktails{width:100%;height:auto;margin-bottom:15px;}
+    .slick-next.slick-arrow, .slick-prev.slick-arrow{display:none !important;}
+    .banda .buscar-lupa{padding-top:0px;}
+    .banda .ubicacion{padding-top:3px;}
+    .banda .buscar-lupa img{width:20px;padding:3px 0;}
+    .banda .ubicacion img{width:14px;padding:2px 0;}
+    .banda-s .cervezas{padding-top:3px;}
+    .banda-s .cervezas img{width:23px;}
+    .banda-s .titular{font-size:16px;padding-top:12px;}
+    .banda{height:auto;}
+
+}
