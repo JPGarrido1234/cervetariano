@@ -1,0 +1,39 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^pag-([0-9]+)$ index.php?pagina=$1
+RewriteRule ^pag-([0-9]+)/$ index.php?pagina=$1
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?zona=$1
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?zona=$1
+
+RewriteRule ^([a-zA-Z0-9_-]+)/pag-([0-9]+)$ index.php?zona=$1&pagina=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/pag-([0-9]+)/$ index.php?zona=$1&pagina=$2
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?zona=$1&zonau=$2
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?zona=$1&zonau=$2
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?zona=$1&zonau=$2&zonad=$3
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?zona=$1&zonau=$2&zonad=$3
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/pagina-([0-9]+)$ index.php?zona=$1&zonau=$2&zonad=$3&pagina=$4
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/pagina-([0-9]+)/$ index.php?zona=$1&zonau=$2&zonad=$3&pagina=$4
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?zona=$1&zonau=$2&zonad=$3&zonat=$4
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?zona=$1&zonau=$2&zonad=$3&zonat=$4
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?zona=$1&zonau=$2&zonad=$3&zonat=$4&zonac=$5
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?zona=$1&zonau=$2&zonad=$3&zonat=$4&zonac=$5
+
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/pagina-([0-9]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ index.php?zona=$1&zonau=$2&zonad=$3&pagina=$4&zonat=$5&zonac=$6
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/pagina-([0-9]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/$ index.php?zona=$1&zonau=$2&zonad=$3&pagina=$4&zonat=$5&zonac=$6
+
+ErrorDocument 404 /404.php
+
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://localhost/cervetariano/$1 [R,L]
+
+
+
+

@@ -1,0 +1,52 @@
+[05-Dec-2019 16:48:06 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function getLoginUrl() on null in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php:237
+Stack trace:
+#0 /home/vivesinn/public_html/cervetarianos.com/index.php(4): include()
+#1 {main}
+  thrown in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php on line 237
+[05-Dec-2019 16:48:53 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function getLoginUrl() on null in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php:237
+Stack trace:
+#0 /home/vivesinn/public_html/cervetarianos.com/index.php(4): include()
+#1 {main}
+  thrown in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php on line 237
+[05-Dec-2019 16:50:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method Facebook\Facebook::getUser() in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php:240
+Stack trace:
+#0 /home/vivesinn/public_html/cervetarianos.com/index.php(4): include()
+#1 {main}
+  thrown in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php on line 240
+[05-Dec-2019 16:56:38 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function getLoginUrl() on null in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php:219
+Stack trace:
+#0 /home/vivesinn/public_html/cervetarianos.com/index.php(4): include()
+#1 {main}
+  thrown in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php on line 219
+[05-Dec-2019 16:57:15 CST6CDT] PHP Fatal error:  Uncaught Error: Call to a member function getLoginUrl() on null in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php:219
+Stack trace:
+#0 /home/vivesinn/public_html/cervetarianos.com/index.php(4): include()
+#1 {main}
+  thrown in /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php on line 219
+[05-Dec-2019 17:03:45 CST6CDT] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookAuthenticationException: This IP can't make requests for that application. in /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/Exceptions/FacebookResponseException.php:142
+Stack trace:
+#0 /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/vivesinn/public_html/cervetaria in /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/Exceptions/FacebookResponseException.php on line 142
+[05-Dec-2019 17:04:38 CST6CDT] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Cross-site request forgery validation failed. Required param "state" missing from persistent data. in /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/Helpers/FacebookRedirectLoginHelper.php:244
+Stack trace:
+#0 /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/Helpers/FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 /home/vivesinn/public_html/cervetarianos.com/plantilla/index.php(215): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 /home/vivesinn/public_html/cervetarianos.com/index.php(4): include('/home/vivesinn/...')
+#3 {main}
+  thrown in /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 244
+[05-Dec-2019 17:41:35 CST6CDT] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Access token metadata contains unexpected app ID. in /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/Authentication/AccessTokenMetadata.php:329
+Stack trace:
+#0 /home/vivesinn/public_html/cervetarianos.com/callback.php(52): Facebook\Authentication\AccessTokenMetadata->validateAppId('{app-id}')
+#1 {main}
+  thrown in /home/vivesinn/public_html/cervetarianos.com/utiles/php-graph-sdk-5.x/src/Facebook/Authentication/AccessTokenMetadata.php on line 329
+[05-Dec-2019 19:46:58 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method inicio::real_escape() in /home/vivesinn/public_html/cervetarianos.com/callback.php:113
+Stack trace:
+#0 {main}
+  thrown in /home/vivesinn/public_html/cervetarianos.com/callback.php on line 113
+[05-Dec-2019 19:52:46 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined method inicio::ultimo_id() in /home/vivesinn/public_html/cervetarianos.com/callback.php:130
+Stack trace:
+#0 {main}
+  thrown in /home/vivesinn/public_html/cervetarianos.com/callback.php on line 130
